@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +25,7 @@
   width: 100%;
   height: 100vh;
 }
+
 .container header nav {
   width: 100%;
   height: 98px;
@@ -36,14 +38,17 @@
   background-color: #FFFBF6;
   border-bottom: 1px solid #FFEFCC;
 }
+
 .container header nav .img img {
   width: 162px;
   height: 58px;
   transition: 0.4s;
 }
+
 .container header nav .img img:hover {
   transform: scale(105%);
 }
+
 .container header nav ul {
   font-family: "Lato", sans-serif;
   list-style: none;
@@ -53,6 +58,7 @@
   gap: 20px;
   padding: 0px 50px;
 }
+
 .container header nav ul li {
   color: var(--black-color);
   font-weight: 700;
@@ -62,19 +68,24 @@
   cursor: pointer;
   transition: 0.5s;
 }
+
 .container header nav ul li:hover {
   color: #cd9000;
 }
+
 .container header nav ul li:active {
   transform: scale(95%);
 }
+
 .container header nav ul li span {
   color: var(--orange-color);
   transition: 0.5s;
 }
+
 .container header nav ul li span:hover {
   color: #cd9000;
 }
+
 .container header nav .button button {
   width: 141px;
   height: 44px;
@@ -90,12 +101,15 @@
   font-family: "Poppins", sans-serif;
   transition: 0.5s;
 }
+
 .container header nav .button button:hover {
   background-color: #ab7802;
 }
+
 .container header nav .button button:active {
   transform: scale(90%);
 }
+
 .container header section {
   width: 100%;
   height: 720px;
@@ -104,6 +118,7 @@
   background-image: url(/image/Section\ bkgr-image.png);
   padding: 141px 690px 140px 100px;
 }
+
 .container header section .cards {
   width: 490px;
   height: 439px;
@@ -112,16 +127,20 @@
   padding: 35px 25px;
   transition: 1s;
 }
+
 .container header section .cards:hover {
   transform: scale(105%);
   box-shadow: 0px 0px 25px rgb(84, 84, 84);
 }
+
 .container header section .cards:active {
   transform: scale(95%);
 }
+
 .container header section .cards .card-one {
   font-family: "Lato", sans-serif;
 }
+
 .container header section .cards .card-one .h1 {
   font-weight: 700;
   font-size: 20px;
@@ -130,6 +149,7 @@
   color: var(--black-color);
   padding-bottom: 10px;
 }
+
 .container header section .cards .card-one h1 {
   font-weight: 800;
   font-size: 38px;
@@ -138,6 +158,7 @@
   color: var(--orange-color);
   padding-bottom: 15px;
 }
+
 .container header section .cards .card-one p {
   font-weight: 500;
   font-size: 18px;
@@ -146,6 +167,7 @@
   color: rgba(0, 0, 0, 0.5019607843);
   padding-bottom: 10px;
 }
+
 .container header section .cards .card-two {
   width: 100%;
   height: 59px;
@@ -154,6 +176,7 @@
   gap: 15px;
   align-items: center;
 }
+
 .container header section .cards .card-two .button button {
   width: 141px;
   height: 44px;
@@ -169,12 +192,15 @@
   font-family: "Poppins", sans-serif;
   transition: 0.5s;
 }
+
 .container header section .cards .card-two .button button:hover {
   background-color: #ab7802;
 }
+
 .container header section .cards .card-two .button button:active {
   transform: scale(90%);
 }
+
 .container header section .cards .card-two .raqam h1 {
   font-weight: 700;
   font-size: 20px;
@@ -183,6 +209,7 @@
   color: var(--orange-color);
   font-family: "Lato", sans-serif;
 }
+
 .container main .big-card {
   width: 100%;
   height: 816px;
@@ -191,12 +218,14 @@
   flex-direction: column;
   gap: 50px;
 }
+
 .container main .big-card .card-one {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .container main .big-card .card-one .suz {
   width: 559px;
   height: 77px;
@@ -204,12 +233,14 @@
   font-family: "Lato", sans-serif;
   transition: 1.5s;
 }
+
 .container main .big-card .card-one .suz:hover {
   margin-top: -23px;
   transform: scale(105%);
   text-shadow: 0px 65px 4px black;
   margin-bottom: 25px;
 }
+
 .container main .big-card .card-one .suz h1 {
   font-weight: 800;
   font-size: 32px;
@@ -218,6 +249,7 @@
   padding-bottom: 10px;
   color: var(--grey-color);
 }
+
 .container main .big-card .card-one .suz p {
   font-weight: 400;
   font-size: 20px;
@@ -225,6 +257,7 @@
   letter-spacing: 0px;
   color: var(--grey-p);
 }
+
 .container main .big-card .card-two {
   display: flex;
   gap: 20px;
@@ -232,6 +265,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .container main .big-card .card-two .card {
   width: 381px;
   height: 457px;
@@ -243,17 +277,21 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
 .container main .big-card .card-two .card:hover {
   transform: scale(103%);
   box-shadow: 0px 0px 20px rgb(110, 110, 110);
 }
+
 .container main .big-card .card-two .card:active {
   transform: scale(90%);
 }
+
 .container main .big-card .card-two .card .img img {
   width: 100%;
   border-radius: 10px;
 }
+
 .container main .big-card .card-two .card h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -262,9 +300,11 @@
   letter-spacing: 0px;
   color: var(--grey-color);
 }
+
 .container main .big-card .card-two .card h1:hover {
   color: rgb(28, 28, 28);
 }
+
 .container main .big-card .card-three {
   width: 100%;
   display: flex;
@@ -272,6 +312,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .container main .big-card .card-three .div {
   width: 13px;
   height: 13px;
@@ -280,12 +321,15 @@
   cursor: pointer;
   transition: 1s;
 }
+
 .container main .big-card .card-three .div:hover {
   transform: scale(125%);
 }
+
 .container main .big-card .card-three .div:active {
   transform: scale(90%);
 }
+
 .container main .big-card .card-three #div {
   width: 13px;
   height: 13px;
@@ -293,6 +337,7 @@
   border: 1px solid var(--orange-color);
   background-color: var(--orange-color);
 }
+
 .container main section .cards {
   width: 100%;
   gap: 20px;
@@ -302,6 +347,7 @@
   justify-content: center;
   background-color: #FFEFCC;
 }
+
 .container main section .cards .card {
   width: 350px;
   height: 268px;
@@ -312,19 +358,23 @@
   border: 1px solid #FFD77C;
   transition: 1s;
 }
+
 .container main section .cards .card:hover {
   transform: scale(105%);
   box-shadow: 0px 0px 20px rgb(97, 97, 97);
 }
+
 .container main section .cards .card:active {
   transform: scale(95%);
 }
+
 .container main section .cards .card .h1 {
   width: 290px;
   height: 50px;
   display: flex;
   align-items: center;
 }
+
 .container main section .cards .card .h1 h1 {
   font-weight: 800;
   font-size: 42px;
@@ -332,17 +382,20 @@
   letter-spacing: 0%;
   color: var(--black-color);
 }
+
 .container main section .cards .card .div {
   width: 300px;
   border: 1px solid var(--border);
   margin-top: 14px;
   margin-bottom: 14px;
 }
+
 .container main section .cards .card .suz-one {
   width: 290px;
   height: 50px;
   margin-bottom: 14px;
 }
+
 .container main section .cards .card .suz-one h1 {
   font-weight: 700;
   font-size: 32px;
@@ -350,6 +403,7 @@
   letter-spacing: 0%;
   color: var(--grey-color2);
 }
+
 .container main section .cards .card .suz-two p {
   font-weight: 400;
   font-size: 18px;
@@ -358,19 +412,24 @@
   color: var(--grey-p);
   font-family: "Lato", sans-serif;
 }
+
 .container main section .cards #card {
   background-color: var(--orange-color);
   border: none;
 }
+
 .container main section .cards #card:hover {
   box-shadow: 0px 0px 20px #c18400;
 }
+
 .container main section .cards #card .h1 h1 {
   color: var(--white-color);
 }
+
 .container main section .cards #card .h1 .div {
   border: 1px solid var(--border);
 }
+
 .container main section .cards #card .suz-one h1 {
   font-weight: 700;
   font-size: 32px;
@@ -378,13 +437,16 @@
   letter-spacing: 0%;
   color: var(--white-color);
 }
+
 .container main section .cards #card .suz-two p {
   color: #FFFBF6;
 }
+
 .container footer .cards50 {
   width: 100%;
   height: 1150px;
 }
+
 .container footer .cards50 .card-one {
   width: 100%;
   height: 680px;
@@ -392,6 +454,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .container footer nav {
   width: 100%;
   height: 594px;
@@ -403,6 +466,7 @@
   padding: 0px 102px 0px 103px;
   gap: 50px;
 }
+
 .container footer nav .cards {
   width: 1075px;
   height: 655px;
@@ -413,18 +477,22 @@
   margin-top: -650px;
   transition: 0.8s;
 }
+
 .container footer nav .cards:hover {
   transform: scale(103%);
   box-shadow: 0px 0px 20px rgb(57, 57, 57);
 }
+
 .container footer nav .cards:active {
   transform: scale(98%);
 }
+
 .container footer nav .cards .cards100 img {
   width: 525px;
   height: 655px;
   border-radius: 10px 0px 0px 10px;
 }
+
 .container footer nav .cards .card-two {
   width: 550px;
   height: 655px;
@@ -432,12 +500,14 @@
   background-color: white;
   border-radius: 0px 10px 10px 0px;
 }
+
 .container footer nav .cards .card-two .suz {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .container footer nav .cards .card-two .suz h1 {
   font-weight: 700;
   font-size: 28px;
@@ -446,6 +516,7 @@
   font-family: "Lato", sans-serif;
   color: #B88E2F;
 }
+
 .container footer nav .cards .card-two .card {
   width: 470px;
   height: 492px;
@@ -454,10 +525,12 @@
   justify-content: center;
   gap: 10px;
 }
+
 .container footer nav .cards .card-two .card .card-three {
   display: flex;
   flex-direction: column;
 }
+
 .container footer nav .cards .card-two .card .card-three label {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -467,9 +540,11 @@
   color: #252B42;
   margin-bottom: 5px;
 }
+
 .container footer nav .cards .card-two .card .card-three label sup {
   color: red;
 }
+
 .container footer nav .cards .card-two .card .card-three input {
   width: 470px;
   height: 48px;
@@ -478,11 +553,13 @@
   padding: 12px 292px 12px 20px;
   outline: none;
 }
+
 .container footer nav .cards .card-two .card #card-four input {
   width: 470px;
   height: 150px;
   padding: 12px 12px 114px 20px;
 }
+
 .container footer nav .cards .card-two .card-ten button {
   width: 141px;
   height: 44px;
@@ -499,16 +576,20 @@
   transition: 0.5s;
   border-radius: 12px;
 }
+
 .container footer nav .cards .card-two .card-ten button:hover {
   background-color: #ab7802;
 }
+
 .container footer nav .cards .card-two .card-ten button:active {
   transform: scale(90%);
 }
+
 .container footer nav .cards-two {
   width: 1085px;
   height: 400px;
 }
+
 .container footer nav .cards-two .card {
   display: flex;
   justify-content: center;
@@ -517,9 +598,11 @@
   border-bottom: 1px solid grey;
   transition: 1s;
 }
+
 .container footer nav .cards-two .card:hover {
   border-bottom: 2px solid #FFD77C;
 }
+
 .container footer nav .cards-two .card .card-one {
   width: 359px;
   height: 302.16px;
@@ -527,10 +610,12 @@
   flex-direction: column;
   gap: 15px;
 }
+
 .container footer nav .cards-two .card .card-one .img img {
   width: 162px;
   height: 58px;
 }
+
 .container footer nav .cards-two .card .card-one .suz p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -539,11 +624,13 @@
   letter-spacing: -1.5%;
   color: #E7EAEC;
 }
+
 .container footer nav .cards-two .card .card-one .icon {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+
 .container footer nav .cards-two .card .card-one .icon i {
   width: 39.16px;
   height: 39.16px;
@@ -557,26 +644,31 @@
   transition: 0.5s;
   cursor: pointer;
 }
+
 .container footer nav .cards-two .card .card-one .icon i:hover {
   color: black;
   background-color: #ffde91;
 }
+
 .container footer nav .cards-two .card .card-one .icon i:active {
   transform: scale(90%);
   font-size: 1rem;
   transition-duration: 1s;
   color: black;
 }
+
 .container footer nav .cards-two .card .card-two {
   width: 195px;
   height: 265px;
   font-family: "Lato", sans-serif;
 }
+
 .container footer nav .cards-two .card .card-two ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .container footer nav .cards-two .card .card-two ul li {
   list-style: none;
   color: white;
@@ -586,6 +678,7 @@
   letter-spacing: -1.5%;
   color: #E7EAEC;
 }
+
 .container footer nav .cards-two .card .card-two ul .h1 {
   padding-bottom: 5px;
   font-weight: 550;
@@ -594,16 +687,19 @@
   letter-spacing: -1.5%;
   color: white;
 }
+
 .container footer nav .cards-two .card .card-three {
   width: 275px;
   height: 186px;
   font-family: "Lato", sans-serif;
 }
+
 .container footer nav .cards-two .card .card-three ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .container footer nav .cards-two .card .card-three ul li {
   list-style: none;
   font-weight: 400;
@@ -612,6 +708,7 @@
   letter-spacing: 0%;
   color: #E7EAEC;
 }
+
 .container footer nav .cards-two .card .card-three ul .h1 {
   font-weight: 550;
   font-size: 22px;
@@ -620,10 +717,12 @@
   color: white;
   padding-bottom: 5px;
 }
+
 .container footer nav .cards-two .card-100 {
   display: flex;
   justify-content: space-between;
 }
+
 .container footer nav .cards-two .card-100 .card20 {
   color: white;
   font-family: "Lato", sans-serif;
@@ -638,81 +737,110 @@
     align-items: center;
     justify-content: space-between;
   }
+
   .container header nav ul {
     display: none;
   }
+
   .container header section {
-    width: 480px;
+    width: 100%;
     padding: 0px 0px;
     background-image: none;
     height: 460px;
     display: flex;
     align-items: baseline;
-    justify-content: center;
   }
+
   .container header section .cards {
     width: 420px;
     height: 400px;
     padding: 50px 50px;
   }
+
   .container header section .cards .card-one .h1 {
     font-size: 15px;
   }
+
   .container header section .cards .card-one h1 {
     font-size: 30px;
     line-height: 35px;
   }
+
   .container header section .cards .card-one p {
     font-size: 15px;
     line-height: 20px;
   }
+
   .container header section .cards .card-two .button button {
     width: 130px;
     font-size: 15px;
   }
+
   .container header section .cards .card-two .raqam h1 {
     width: 130px;
     font-size: 15px;
   }
+
   .container main .big-card {
     width: 480px;
     display: flex;
     flex-direction: column;
-    margin-top: -50px;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 500px;
+    padding: 0px 0px;
+    margin-bottom: -570px;
   }
+
+  .container main .big-card .card-one {
+    width: 100%;
+    padding: 0px 80px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+
   .container main .big-card .card-one .suz:hover {
     margin-top: 0px;
     transform: none;
     text-shadow: none;
     margin-bottom: 0px;
   }
+
   .container main .big-card .card-one .suz h1 {
     text-shadow: none;
   }
+
   .container main .big-card .card-one .suz p {
     text-shadow: none;
   }
+
   .container main .big-card .card-two {
     flex-direction: column;
     gap: 100px;
   }
+
   .container main .big-card .card-two .card {
     height: 480px;
   }
+
   .container main section {
     margin-top: 1180px;
   }
+
   .container main section .cards {
     width: 480px;
     flex-direction: column;
     gap: 40px;
   }
+
   .container footer .cards50 {
     display: none;
   }
+
   .container footer .cards50 .card-one {
     background-image: none;
   }
+
   .container footer nav {
     margin-top: 500px;
     flex-direction: column;
@@ -722,21 +850,25 @@
     padding: 0px 0px;
     width: 480px;
   }
+
   .container footer nav .cards {
     width: 480px;
     flex-direction: column;
     margin-top: -830px;
     height: 1560px;
   }
+
   .container footer nav .cards .cards100 {
     width: 480px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .container footer nav .cards .cards100 img {
     width: 480px;
   }
+
   .container footer nav .cards .card-two {
     width: 480px;
     padding: 0px 0px;
@@ -745,15 +877,19 @@
     align-items: center;
     justify-content: center;
   }
+
   .container footer nav .cards .card-two .card {
     padding: 0px 0px;
   }
+
   .container footer nav .cards .card-two .card .card-three input {
     width: 460px;
   }
+
   .container footer nav .cards .card-two .card #card-four input {
     width: 460px;
   }
+
   .container footer nav .cards-two {
     display: flex;
     flex-direction: column;
@@ -761,6 +897,7 @@
     justify-content: center;
     width: 480px;
   }
+
   .container footer nav .cards-two .card {
     display: flex;
     flex-direction: column;
@@ -770,6 +907,7 @@
     padding: 0px 0px 40px 0px;
     gap: 30px;
   }
+
   .container footer nav .cards-two .card .card-one {
     width: 480px;
     text-align: center;
@@ -778,6 +916,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .container footer nav .cards-two .card .card-two {
     width: 480px;
     text-align: center;
@@ -786,6 +925,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .container footer nav .cards-two .card .card-three {
     width: 480px;
     text-align: center;
@@ -794,11 +934,15 @@
     align-items: center;
     justify-content: center;
   }
+
   .container footer nav .cards-two .card-100 {
     flex-direction: column;
     gap: 1px;
   }
+
   .container footer nav .cards-two .card-100 .card20 {
     height: 5px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
