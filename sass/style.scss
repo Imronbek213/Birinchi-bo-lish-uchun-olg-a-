@@ -733,9 +733,11 @@
     .container {
         header {
             nav {
-                gap: 100px;
+                width: 100%;
                 padding: 0px 25px;
-
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
                 ul {
                     display: none;
                 }
@@ -754,6 +756,9 @@
 
         main {
             .big-card {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
                 .card-one {
                     .suz {
                         &:hover {
