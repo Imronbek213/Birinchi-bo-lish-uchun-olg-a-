@@ -737,28 +737,65 @@
                 padding: 0px 25px;
                 display: flex;
                 align-items: center;
-                justify-content:space-between;
+                justify-content: space-between;
+
                 ul {
                     display: none;
                 }
             }
 
             section {
+                width: 480px;
                 padding: 0px 0px;
                 background-image: none;
                 height: 460px;
+                display: flex;
+                align-items:baseline;
+                justify-content:center;
 
                 .cards {
-                    width: 480px;
+                    width: 420px;
+                    height:400px;
+                    padding:50px 50px;
+
+                    .card-one {
+                        .h1{
+                            font-size:15px;
+                        }
+                        h1{
+                            font-size:30px;
+                            line-height:35px;
+                        }
+                        p{
+                            font-size:15px;
+                            line-height:20px;
+                        }
+                    }
+                    .card-two{
+                        .button{
+                            button{
+                                width:130px;
+                                font-size:15px;
+                            }
+                        }
+                        .raqam{
+                            h1{
+                                width:130px;
+                                font-size:15px;
+                            }
+                        }
+                    }
                 }
             }
         }
 
         main {
             .big-card {
-                width: 100%;
+                width: 480px;
                 display: flex;
                 flex-direction: column;
+                margin-top:-50px;
+
                 .card-one {
                     .suz {
                         &:hover {
@@ -781,8 +818,9 @@
                 .card-two {
                     flex-direction: column;
                     gap: 100px;
-                    .card{
-                        height:480px;
+
+                    .card {
+                        height: 480px;
                     }
                 }
             }
@@ -791,7 +829,7 @@
                 margin-top: 1180px;
 
                 .cards {
-                    width: 100%;
+                    width: 480px;
                     flex-direction: column;
                     gap: 40px;
                 }

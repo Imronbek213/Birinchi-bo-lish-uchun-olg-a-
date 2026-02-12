@@ -642,17 +642,43 @@
     display: none;
   }
   .container header section {
+    width: 480px;
     padding: 0px 0px;
     background-image: none;
     height: 460px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
   }
   .container header section .cards {
-    width: 480px;
+    width: 420px;
+    height: 400px;
+    padding: 50px 50px;
+  }
+  .container header section .cards .card-one .h1 {
+    font-size: 15px;
+  }
+  .container header section .cards .card-one h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .container header section .cards .card-one p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .container header section .cards .card-two .button button {
+    width: 130px;
+    font-size: 15px;
+  }
+  .container header section .cards .card-two .raqam h1 {
+    width: 130px;
+    font-size: 15px;
   }
   .container main .big-card {
-    width: 100%;
+    width: 480px;
     display: flex;
     flex-direction: column;
+    margin-top: -50px;
   }
   .container main .big-card .card-one .suz:hover {
     margin-top: 0px;
@@ -677,7 +703,7 @@
     margin-top: 1180px;
   }
   .container main section .cards {
-    width: 100%;
+    width: 480px;
     flex-direction: column;
     gap: 40px;
   }
