@@ -725,6 +725,9 @@
   .container main section {
     width: 480px;
     margin-top: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .container main section .cards {
     width: 100%;
@@ -763,6 +766,7 @@
   }
   .container footer nav .cards .cards100 img {
     width: 480px;
+    border-radius: 0px 0px 0px 0px;
   }
   .container footer nav .cards .card-two {
     width: 480px;
@@ -771,6 +775,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 0px 0px 0px 0px;
   }
   .container footer nav .cards .card-two .card {
     padding: 0px 0px;
