@@ -803,25 +803,23 @@
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
   .container footer nav .cards .card-two .card .card-three label {
     display: flex;
     gap: 5px;
-    padding-right: 280px;
+    padding-left: 20px;
   }
   .container footer nav .cards .card-two .card .card-three input {
     width: 100%;
     height: 50px;
-    padding: 0px 230px 0px 15px;
+    padding: 0px 100px 0px 15px;
   }
   .container footer nav .cards .card-two .card #card-four {
     width: 100%;
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
   .container footer nav .cards .card-two .card #card-four label {
@@ -832,7 +830,7 @@
   .container footer nav .cards .card-two .card #card-four input {
     width: 100%;
     height: 100px;
-    padding: 0px 230px 50px 15px;
+    padding: 0px 150px 50px 15px;
   }
   .container footer nav .cards-two {
     display: flex;
