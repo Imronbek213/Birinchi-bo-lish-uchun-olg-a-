@@ -633,15 +633,10 @@
 @media (max-width: 480px) {
   .container header {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 0px;
   }
   .container header nav {
     width: 100%;
-    padding: 0px 0px;
+    padding: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -662,6 +657,10 @@
     width: 100%;
     height: 400px;
     padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .container header section .cards .card-one .h1 {
     font-size: 15px;
@@ -685,10 +684,9 @@
   .container main .big-card {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
-    margin-top: 500px;
+    margin-top: 550px;
     margin-bottom: -570px;
   }
   .container main .big-card .card-one {
@@ -753,22 +751,25 @@
     background-image: none;
   }
   .container footer nav {
-    margin-top: 600px;
+    margin-top: 1300px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 1850px;
+    height: 1050px;
     padding: 15px 0px;
     width: 100%;
     background-color: black;
-    gap: 100px;
+    gap: 900px;
   }
   .container footer nav .cards {
     width: 100%;
     flex-direction: column;
-    margin-top: -1050px;
-    height: 1560px;
+    margin-top: -1300px;
     transition: 2s;
+    padding: 0px 0px;
+    margin-bottom: -250px;
+    align-items: center;
+    justify-content: center;
   }
   .container footer nav .cards:hover {
     transform: scale(102%);
@@ -785,7 +786,6 @@
   }
   .container footer nav .cards .card-two {
     width: 100%;
-    padding: 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -793,13 +793,16 @@
     border-radius: 0px 0px 0px 0px;
   }
   .container footer nav .cards .card-two .card {
-    padding: 0px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .container footer nav .cards .card-two .card .card-three input {
-    width: 460px;
+    width: 480px;
   }
   .container footer nav .cards .card-two .card #card-four input {
-    width: 460px;
+    width: 480px;
   }
   .container footer nav .cards-two {
     display: flex;
