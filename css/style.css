@@ -632,7 +632,7 @@
 
 @media (max-width: 480px) {
   .container header {
-    width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -640,8 +640,8 @@
     padding: 0px 0px;
   }
   .container header nav {
-    width: 480px;
-    padding: 0px 20px;
+    width: 100%;
+    padding: 0px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -650,7 +650,7 @@
     display: none;
   }
   .container header section {
-    width: 480px;
+    width: 100%;
     padding: 0px 0px;
     background-image: none;
     height: 470px;
@@ -659,7 +659,7 @@
     justify-content: center;
   }
   .container header section .cards {
-    width: 480px;
+    width: 100%;
     height: 400px;
     padding: 30px 30px;
   }
@@ -683,7 +683,7 @@
     font-size: 15px;
   }
   .container main .big-card {
-    width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -692,13 +692,13 @@
     margin-bottom: -570px;
   }
   .container main .big-card .card-one {
-    width: 480px;
+    width: 100%;
     display: flex;
     align-items: baseline;
     justify-content: baseline;
   }
   .container main .big-card .card-one .suz {
-    width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -718,29 +718,28 @@
     text-shadow: none;
   }
   .container main .big-card .card-two {
-    width: 480px;
     flex-direction: column;
     gap: 100px;
   }
   .container main .big-card .card-two .card {
-    width: 480px;
+    width: 100%;
     height: 480px;
   }
   .container main .big-card .card-three {
     display: flex;
     align-items: baseline;
     justify-content: baseline;
-    width: 480px;
+    width: 100%;
   }
   .container main section {
-    width: 480px;
+    width: 100%;
     margin-top: 1180px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .container main section .cards {
-    width: 480px;
+    width: 100%;
     flex-direction: column;
     gap: 40px;
     display: flex;
@@ -760,12 +759,12 @@
     justify-content: center;
     height: 1850px;
     padding: 15px 0px;
-    width: 480px;
+    width: 100%;
     background-color: black;
     gap: 100px;
   }
   .container footer nav .cards {
-    width: 480px;
+    width: 100%;
     flex-direction: column;
     margin-top: -1050px;
     height: 1560px;
@@ -775,17 +774,17 @@
     transform: scale(102%);
   }
   .container footer nav .cards .cards100 {
-    width: 480px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .container footer nav .cards .cards100 img {
-    width: 480px;
+    width: 100%;
     border-radius: 0px 0px 0px 0px;
   }
   .container footer nav .cards .card-two {
-    width: 480px;
+    width: 100%;
     padding: 0px 0px;
     display: flex;
     flex-direction: column;
@@ -807,7 +806,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 480px;
+    width: 100%;
     padding: 0px 0px;
     background-color: black;
   }
@@ -821,7 +820,7 @@
     gap: 30px;
   }
   .container footer nav .cards-two .card .card-one {
-    width: 480px;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -829,7 +828,7 @@
     justify-content: center;
   }
   .container footer nav .cards-two .card .card-two {
-    width: 480px;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -837,7 +836,7 @@
     justify-content: center;
   }
   .container footer nav .cards-two .card .card-three {
-    width: 480px;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -855,7 +854,6 @@
     height: 200px;
     align-items: center;
     justify-content: center;
-    width: 480px;
   }
   .container footer nav .cards-two .card-100 .card20 {
     height: 15px;
