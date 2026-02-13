@@ -807,6 +807,8 @@
     justify-content: center;
   }
   .container footer nav .cards .card-two .card .card-three label {
+    display: flex;
+    gap: 5px;
     padding-right: 280px;
   }
   .container footer nav .cards .card-two .card .card-three input {
@@ -825,6 +827,7 @@
   .container footer nav .cards .card-two .card #card-four label {
     padding-left: 20px;
     display: flex;
+    gap: 5px;
   }
   .container footer nav .cards .card-two .card #card-four input {
     width: 100%;
