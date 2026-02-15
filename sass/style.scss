@@ -67,9 +67,14 @@
                     width: 162px;
                     height: 58px;
                     transition: .4s;
+                    cursor: pointer;
 
                     &:hover {
                         transform: scale(105%);
+                    }
+
+                    &:active {
+                        transform: scale(95%);
                     }
                 }
             }
@@ -133,6 +138,7 @@
                 border-radius: 12px;
                 padding: 35px 25px;
                 transition: 1s;
+                cursor: pointer;
 
                 &:hover {
                     transform: scale(105%);
@@ -223,7 +229,7 @@
                     height: 77px;
                     text-align: center;
                     font-family: 'Lato', sans-serif;
-                    transition: 1.5s;
+                    transition: 2.5s;
 
                     &:hover {
                         margin-top: -23px;
@@ -306,6 +312,7 @@
                 gap: 10px;
                 align-items: center;
                 justify-content: center;
+                margin-top: 20px;
 
                 .div {
                     width: 13px;
@@ -353,6 +360,7 @@
                     border-radius: 10px;
                     border: 1px solid #FFD77C;
                     transition: 1s;
+                    cursor: pointer;
 
                     &:hover {
                         transform: scale(105%);
@@ -605,6 +613,16 @@
                             img {
                                 width: 162px;
                                 height: 58px;
+                                cursor: pointer;
+                                transition: .5s;
+
+                                &:hover {
+                                    transform: scale(106%);
+                                }
+
+                                &:active {
+                                    transform: scale(95%);
+                                }
                             }
                         }
 
@@ -670,6 +688,12 @@
                                 line-height: 100%;
                                 letter-spacing: -1.5%;
                                 color: #E7EAEC;
+                                cursor: pointer;
+                                transition: .5s;
+
+                                &:active {
+                                    transform: scale(95%);
+                                }
                             }
 
                             .h1 {
@@ -679,6 +703,10 @@
                                 line-height: 100%;
                                 letter-spacing: -1.5%;
                                 color: white;
+
+                                &:hover {
+                                    color: rgb(238, 238, 238);
+                                }
                             }
                         }
                     }
@@ -700,6 +728,12 @@
                                 line-height: 100%;
                                 letter-spacing: 0%;
                                 color: #E7EAEC;
+                                cursor: pointer;
+                                transition: .5s;
+
+                                &:active {
+                                    transform: scale(95%);
+                                }
                             }
 
                             .h1 {
@@ -709,6 +743,10 @@
                                 letter-spacing: -1.5%;
                                 color: white;
                                 padding-bottom: 5px;
+
+                                &:hover {
+                                    color: rgb(238, 238, 238);
+                                }
                             }
                         }
                     }
@@ -947,7 +985,7 @@
                                 label {
                                     display: flex;
                                     gap: 5px;
-                                    padding-left:10px;
+                                    padding-left: 10px;
                                 }
 
                                 input {
@@ -966,7 +1004,7 @@
                                 justify-content: center;
 
                                 label {
-                                    padding-left:10px;
+                                    padding-left: 10px;
                                     display: flex;
                                     gap: 5px;
                                 }
